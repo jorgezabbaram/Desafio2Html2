@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    width: 100%;
+    display: inline-block;
+    >#logoHeader{
+        >img{
+            float: right;
+            margin-top: 8px;
+        }
+        width: 20%;
+        float: left;
+    }
+}
+nav {
+    
+    display: inline-block;
+    & ul{
+        float: left;
+        
+        li{
+            list-style: none;
+            display: inline-block;   
+        }
+
+    } 
+    >div {   
+        border-style: solid;
+        padding: 5px 7px ;
+        display: inline-block;
+        margin-top: 18px;
+    }
+
+    >:last-child{
+        float: right;
+        padding: 0;
+        margin-left: 2px;
+        li {
+            float: right;
+        }
+    }
+}
